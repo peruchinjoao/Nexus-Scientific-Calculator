@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer components {
+  /* Keypad Button Styles */
+  .key-num {
+    @apply h-11 sm:h-12 rounded-xl bg-neutral-800/80 hover:bg-neutral-700/80 text-white font-mono text-base sm:text-lg font-bold border border-neutral-700/60 shadow-sm transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-op {
+    @apply h-11 sm:h-12 rounded-xl bg-cyan-950/60 hover:bg-cyan-900/60 text-cyan-300 font-mono text-base sm:text-lg font-bold border border-cyan-800/50 shadow-sm transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-fn {
+    @apply h-10 sm:h-11 rounded-xl bg-neutral-800/60 hover:bg-neutral-700/60 text-neutral-300 font-mono text-xs sm:text-sm font-semibold border border-neutral-800 transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-sc {
+    @apply h-10 sm:h-11 rounded-xl bg-indigo-950/40 hover:bg-indigo-900/40 text-indigo-300 font-mono text-xs sm:text-sm font-semibold border border-indigo-900/40 transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-const {
+    @apply h-10 sm:h-11 rounded-xl bg-purple-950/40 hover:bg-purple-900/40 text-purple-300 font-mono text-xs sm:text-sm font-semibold border border-purple-900/40 transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-sym {
+    @apply h-10 sm:h-11 rounded-xl bg-neutral-800/60 hover:bg-neutral-700/60 text-neutral-300 font-mono text-sm font-bold border border-neutral-800 transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-del {
+    @apply h-10 sm:h-11 rounded-xl bg-amber-950/40 hover:bg-amber-900/50 text-amber-300 font-mono text-xs font-bold border border-amber-800/40 transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-clear {
+    @apply h-10 sm:h-11 rounded-xl bg-red-950/40 hover:bg-red-900/50 text-red-300 font-mono text-xs font-bold border border-red-800/40 transition active:scale-95 flex items-center justify-center cursor-pointer;
+  }
+  
+  .key-eq {
+    @apply rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-mono font-bold border border-cyan-400/30 shadow-lg shadow-cyan-950/60 transition active:scale-95 cursor-pointer;
+  }
+}

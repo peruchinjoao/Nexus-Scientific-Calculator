@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Scientific Calculator",
+  "description": "Calculadora científica moderna em Python com Streamlit, SymPy, avaliação segura via AST, funções trigonométricas, cálculo simbólico e suíte completa de testes pytest.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
